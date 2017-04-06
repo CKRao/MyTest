@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher_round"
+        android:shortcutDisabledMessage="@string/shortcut_publish"
+        android:shortcutId="publish"
+        android:shortcutLongLabel="@string/shortcut_publish"
+        android:shortcutShortLabel="@string/shortcut_publish">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.clark.shortcuttest.MainActivity"
+            android:targetPackage="com.clark.shortcuttest" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+    <shortcut
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher_round"
+        android:shortcutDisabledMessage="@string/shortcut_write"
+        android:shortcutId="write"
+        android:shortcutLongLabel="@string/shortcut_write"
+        android:shortcutShortLabel="@string/shortcut_write">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.clark.shortcuttest.MainActivity"
+            android:targetPackage="com.clark.shortcuttest" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>
